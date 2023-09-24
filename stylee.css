@@ -1,0 +1,221 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}
+/*html{
+  -webkit-overflow-scrolling: touch;
+  word-break: keep-all;
+}
+*/ 
+
+header {
+  background-size:100%;
+  background-color: #000000;
+}
+svg {
+  margin-left: 3%;
+  margin-right:30%;
+  background: #000000;
+    }
+
+main, body, h1, h2, h5, p, div , li{
+  font-family: 'Avenir', sans-serif;
+}
+
+
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 70%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+
+
+
+.discscroll{
+    font-size: 10px;
+    color: lightgrey;
+    font-weight: 10;
+    text-align: center;
+  }
+
+
+.discscroll{
+  font-size: 10pt;
+  text-align:left;
+  margin-left: 5%;
+}
+
+.graphic__prose{
+  margin-left: 60%;
+  margin-right: 5%;
+  text-align:left;
+  }
+
+
+.hongiklogo {
+      width: 40px;
+      height: 40px;
+      margin-right: 20px;  
+    }
+
+
+body{
+   line-height:1.7rem;
+   background-size:100%;
+   background-color: #000000;
+   font-size: 10pt;
+   color: #FFFFFF;
+   height:100px;
+}
+
+main {
+    padding-bottom: 5rem;
+    font-family:'Avenir', sans-serif;
+    font-size: 14pt;
+    color: #FFFFFF;
+    height:100px;
+}
+   
+
+ .intro {
+/*    max-width: 1060px;*/
+    margin-left: 60%;
+    margin-right:5%;
+    padding: 20px;
+    text-align:center;
+  }
+  
+  .title {
+    font-size: 40pt;
+    line-height:44pt;
+    color:#FFFFFF;
+    font-weight: regular;
+    text-align: center;
+  }
+  .title span{
+    color:#D2B48C;
+  }
+  .subtitle{
+    font-weight:500;
+    color:#FFFFFF;
+  }
+  #sublink{
+    color:#868e96;
+  }
+.pc{
+  margin:20px 0;
+}
+.plog{
+    font-size: 21px;
+    color:#FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 200px
+}
+
+.trigger{
+  padding-bottom: 30rem
+}
+
+footer{
+ position: relative;
+ font-family: 'Noto sans kr', sans-serif;
+ font-size: 10pt;
+ height:10px;
+ margin-top: -20px;
+ text-align: left;
+}
+.fteamname{
+    clear: both;
+    font-size: 20px;
+    color:#FFFFFF;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 2500px;
+}
+
+.student{
+    position: relative;
+    font-size: 10pt;
+    font-weight: 80px;
+    height:10px;
+    margin-top: -20px;
+    margin-left: 5px;
+    text-align: center;
+    letter-spacing: 0.25em 
+}
+
+.africamap{
+    width: 20rem;
+    height: 20rem;
+    }
+
+
+.total{
+  font-family: 'Avenir', sans-serif;
+  font-size: 8pt;
+  letter-spacing: 3.5px;
+}
+
+.button{
+  font-family: 'Avenir', sans-serif;
+  font-size: 8pt;
+  font-weight: bold;
+  letter-spacing: 3.5px;
+}
+
+.continentstitle{
+  font-family: 'Avenir', sans-serif;
+  font-size: 14pt;
+  letter-spacing: 0px;
+}
+
+.texttoggle{
+  font-family: 'Avenir', sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+  letter-spacing: 0px;
+}
+
+.hover{
+  font-family: 'Avenir', sans-serif;
+  font-size: 8pt;
+  letter-spacing: 0px;
+}
+  
